@@ -1,0 +1,23 @@
+POST http://localhost:5000/signup
+content-type: application/json
+
+{
+    "name": "sample",
+    "password": "1234"
+}
+
+###
+POST  http://localhost:5000/login
+content-type: application/json
+
+{
+    "name": "sample",
+    "password": "1234"
+}
+
+###
+GET  http://localhost:5000/
+
+###
+DELETE  http://localhost:5000/logout
+
